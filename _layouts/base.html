@@ -20,8 +20,7 @@
         for(var e,l='article aside footer header nav section time'.split(' ');e=l.pop();document.createElement(e));
         </script>
 
-        <meta name="description" content="{{ site.description }}">
-        <meta name="keywords" content="{{ site.keywords }}">
+        <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.asset_path }}3361409d-apple-touch-icon-144x144-precomposed.png" />
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.asset_path }}5fe4d3c8-apple-touch-icon-114x114-precomposed.png" />

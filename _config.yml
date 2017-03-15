@@ -9,7 +9,6 @@
 title: Welcome
 email: webteam@canonical.com
 description: Conjure-up lets you summon up a big-software stack as a 'spell' - a model of the stack, combined with extra know-how to get you from an installed stack to a fully usable one.
-keywords: Conjure-up, OpenStack, Kubernetes, spell
 baseurl: ""
 asset_path: https://assets.ubuntu.com/v1/
 navigation:
